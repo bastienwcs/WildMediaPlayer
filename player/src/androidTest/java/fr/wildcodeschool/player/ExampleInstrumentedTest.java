@@ -1,4 +1,4 @@
-package fr.wildcodeschool.mediaplayer;
+package fr.wildcodeschool.player;
 
 import android.content.Context;
 
@@ -17,11 +17,11 @@ import static org.junit.Assert.*;
  */
 @RunWith(AndroidJUnit4.class)
 public class ExampleInstrumentedTest {
-  @Test
-  public void useAppContext() {
-    // Context of the app under test.
-    Context appContext = InstrumentationRegistry.getTargetContext();
+    @Test
+    public void useAppContext() {
+        // Context of the app under test.
+        Context appContext = InstrumentationRegistry.getTargetContext();
 
-    assertEquals("fr.wildcodeschool.mediaplayer", appContext.getPackageName());
-  }
+        assertEquals("fr.wildcodeschool.player.test", appContext.getPackageName());
+    }
 }
